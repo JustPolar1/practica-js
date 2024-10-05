@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='es'>
+    <head>
+        <link href="main.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>¡Práctica de tablas!</h1>
+        <table class="tabla-principal">
+            <tr>
+                <th>Equipo</th>
+                <th>Puntuación</th>
+                <th>Ranking</th>
+                <th>Controles</th>
+            </tr>
+            <tr>
+                <td>APBR</td>
+                <td>60</td>
+                <td>4</td>
+                <td>
+                    <button onclick="moveRow(this, 'up')">⬆</button>
+                    <button onclick="moveRow(this, 'down')">⬇</button>
+                </td>
+            </tr>
+            <tr>
+                <td>RRQ</td>
+                <td>50</td>
+                <td>5</td>
+                <td>
+                    <button onclick="moveRow(this, 'up')">⬆</button>
+                    <button onclick="moveRow(this, 'down')">⬇</button>
+                </td>
+            </tr>
+            <tr>
+                <td>EVOS</td>
+                <td>40</td>
+                <td>6</td>
+                <td>
+                    <button onclick="moveRow(this, 'up')">⬆</button>
+                    <button onclick="moveRow(this, 'down')">⬇</button>
+                </td>
+            </tr>
+            <tr>
+                <td>ONIC</td>
+                <td>50</td>
+                <td>5</td>
+                <td>
+                    <button onclick="moveRow(this, 'up')">⬆</button>
+                    <button onclick="moveRow(this, 'down')">⬇</button>
+                </td>
+            </tr>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
